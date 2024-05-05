@@ -1,0 +1,131 @@
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(196, 193, 193);
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 30px;
+    max-width: 800px;
+}
+.hamburger-menu{
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.search-button{
+    position: relative;
+    height: 38px;
+    border-color: rgb(179, 179, 179);
+    width: 67px;
+    border-width: 1px;
+    margin-left: -3px;
+    border-style: solid;
+}
+.search-button .tooltip{
+    position: absolute;
+    background-color: rgba(7, 7, 7,0.5);
+    padding: 4px 12px;
+    border-radius: 1px;
+    color: white;
+    bottom: -30px;
+    pointer-events: none;
+    opacity: 0;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+
+.voice-search-button{
+    height: 40px;
+    width: 50px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin-left: 8px;
+}
+.search-bar{
+    flex: 1;
+    height: 34px;
+    font-size: 17px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(173, 173, 173);
+    border-radius: 1px;
+    width: 0;
+}
+
+.search-bar::placeholder{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 12px;
+}
+.search-icon{
+    height: 25px;
+    padding-top: 4px;
+}
+.voice-search-icon{
+    width: 29px;
+    padding-top: 7px;
+}
+
+.youtube-apps-icon{
+    height: 24px;
+}
+.upload-icon{
+    height: 24px;
+}
+.notifications-icon{
+    height: 24px;
+}
+.current-picture-user{
+    height: 34px;
+}
+.notification-counter{
+    position: absolute;
+    font-family: Roboto, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    top: -4px;
+    right: -5px;
+    border-radius: 90px;
+    background-color: red;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+.notifications-icon-container{
+position: relative;
+
+}
