@@ -16,8 +16,7 @@ Welcome to my YouTube clone project! This is my very first project and I'm excit
 
 ## Getting Started
 
-To view the project, simply open the `index.html` file in your web browser.
-
+To view the project, simply You can check out the project live [here](https://azariel-tesfaye.github.io/Azariel-Youtube-clone-1st-project/Azariel-Youtube-clone-1st-project/index.html)!
 ## Future Improvements
 
 Although this is my first project and it's quite basic, I have plans to expand it in the future. Some improvements I'm considering include:
